@@ -1,0 +1,75 @@
+/* Styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the header */
+header {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styles for the navigation bar */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: #0074d9;
+}
+
+/* Styles for the main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the headings */
+h1, h2 {
+  font-size: 36px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Styles for the paragraphs */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+/* Styles for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
